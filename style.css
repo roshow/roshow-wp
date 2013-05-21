@@ -1,0 +1,91 @@
+/* 
+Theme Name: roshow.net
+Theme URI: http://roshow.net
+Description: personal
+Author: rolando garcia
+Version: 1.0
+Author URI: http://roshow.net
+
+*/
+
+/* = GLOBAL = */
+
+body {
+	background-color: #401606;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #610000;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #bbbbbb;
+}
+
+/* = HEADER = */
+#header_img {
+	display: block;
+	padding: 0px;
+	margin: auto;
+	margin-bottom: 20px;
+	border: 0;
+}
+
+/* =  MAIN BODY = */
+
+#post_wrapper {
+	background-color: #FDF4DB;
+	width: 600px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 3px;
+}
+	
+	.post_item {
+		border: 1px solid #cccccc;
+		margin: 10px 0px;
+		border-radius: 3px;
+		padding: 10px;
+	}
+		.post_item  img {
+			max-width: 100%;
+			height: auto;
+		}
+		.the_title {
+			font-size: 1.5em;
+			font-weight: 700;
+			font-family: Tahoma, Geneva, sans-serif;
+		}
+		.post_data {
+			font-size: .9em;
+		}
+		.the_content a {
+			color: red;
+		}
+		.the_content a:hover {
+			color: #bbbbbb;
+		}
+img.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+img.alignright {
+	margin: 0 0 13px 13px;
+	display: inline;
+}
+img.alignleft {
+	margin: 0 13px 13px 0;
+	display: inline;
+}
+.alignleft {
+	float: left
+}
+.alignright {
+	float: right;
+}
