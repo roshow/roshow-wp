@@ -13,6 +13,8 @@
 
 	   	<?php endwhile; ?>
 		<?php endif;?>
+		<span style='float:left;'><?php next_posts_link('&laquo; Previous entries');?></span>
+		<span style='float:right;'><?php previous_posts_link('Next entries &raquo;');?></span>
 		</div>
 		<?php get_sidebar(); ?>
 	</div>
