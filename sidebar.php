@@ -4,39 +4,19 @@
 		<a href="http://twitter.com/roshow" target="_blank"><img src="http://roshow.net/wp-content/uploads/2011/02/twitter.png"></a>
 		<a href="http://facebook.com/roshow" target="_blank"><img src="http://roshow.net/wp-content/uploads/2011/02/facebook.png"></a>
 	</div>
-	<div style="position:relative;">
-		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<a class="twitter-timeline" href="https://twitter.com/roshow" data-widget-id="336751316292476928">Tweets by @roshow</a>
 		<script>
-			new TWTR.Widget({
-			  version: 2,
-			  type: 'profile',
-			  rpp: 5,
-			  interval: 6000,
-			  width: 'auto',
-			  height: 'auto',
-			  theme: {
-			    shell: {
-			      background: '#eeeab6',
-			      color: '#0F0F0F'
-			    },
-			    tweets: {
-			      background: '#eeeab6',
-			      color: '#000000',
-			      links: '#000000'
-			    }
-			  },
-			  features: {
-			    scrollbar: false,
-			    loop: false,
-			    live: false,
-			    hashtags: true,
-			    timestamp: true,
-			    avatars: false,
-			    behavior: 'all'
-			  }
-			}).render().setUser('roshow').start();
+		! function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0],
+				p = /^http:/.test(d.location) ? 'http' : 'https';
+			if (!d.getElementById(id)) {
+				js = d.createElement(s);
+				js.id = id;
+				js.src = p + "://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}
+		}(document, "script", "twitter-wjs");
 		</script>
-	</div>
 	<div class="sidebar_content">
 	<?php if (function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : endif?>
 	</div>
