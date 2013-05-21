@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>roshow's theme</title>
+		<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
+		<meta name="Description" content="I'm Ro. This is my show.">
+		<meta name="bitly-verification" content="1c04e75ab0cc"/>
+		<meta name="keywords" content="rolando, garcia, rolando garcia, roshow, roshow.net, rolando garcia roshow, rolando roshow" />
+		<title>ROSHOW.net theme</title>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	</head>
 	<body>
-		<a href='index.php'><div style='width:100%;position:fixed;top:0;left:0;display:block;'><img src='wp-content/themes/roshow-wp/images/header.png' id='header_img'/></div></a>
+		<div id="header_div"><a href='index.php'><img src='wp-content/themes/roshow-wp/images/header.png' id='header_img'/></a></div>

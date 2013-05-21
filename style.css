@@ -27,25 +27,38 @@ a:hover {
 }
 
 /* = HEADER = */
+
+#header_div {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
 #header_img {
 	display: block;
 	padding: 0px;
 	margin: auto;
-	margin-bottom: 20px;
 	border: 0;
 }
 
 /* =  MAIN BODY = */
 
+#body_wrapper {
+	width: 910px;
+	margin: auto;
+	margin-top: 135px;
+}
+
 #post_wrapper {
 	background-color: #FDF4DB;
 	width: 600px;
-	padding: 30px;
+	padding: 20px;
 	margin: auto;
-	margin-top: 150px;
 	border-radius: 3px;
+	float: left;
 }
-	
+
 	.post_item {
 		border: 1px solid #cccccc;
 		margin: 10px 0px;
@@ -70,6 +83,26 @@ a:hover {
 		.the_content a:hover {
 			color: #bbbbbb;
 		}
+
+#sidebar {
+	background-color: #FDF4DB;
+	width: 200px;
+	height: auto;
+	padding: 30px;
+	margin: auto;
+	border-radius: 3px;
+	float: right;
+}
+
+#footer {
+	width: 100%;
+	border: 1px solid black;
+	margin-top:10px;
+	display:block;
+	clear:both;
+}
+
+
 img.aligncenter {
 	margin-left: auto;
 	margin-right: auto;
