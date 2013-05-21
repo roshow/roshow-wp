@@ -101,6 +101,11 @@ a:hover {
 			font-weight: 500;
 		}
 
+		.sidebar_content ul li {
+			display: block;
+			margin: 5px;
+		}
+
 		.sidebar_content .hl {
 			font-size: 1em;
 			text-align: center;
