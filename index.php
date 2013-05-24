@@ -23,7 +23,7 @@
 		</div>
 		<?php get_sidebar(); ?>
 
-		<div id="header_div"></div>
+		<div id="header_div" onclick="window.open('index.php','_blank');"></div>
 
 	</div>
 
