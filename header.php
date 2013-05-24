@@ -9,5 +9,3 @@
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
 	</head>
-	<body>
-		<div id="header_div"><a href='index.php'><img src='wp-content/themes/roshow-wp/images/header.png' id='header_img'/></a></div>

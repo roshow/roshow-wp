@@ -1,5 +1,4 @@
-<div id="footer"></div>
-<p>...and we're done </p>
+<!--div id="footer"></div-->
 </body>
 </head>
 </html>

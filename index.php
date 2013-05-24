@@ -1,7 +1,10 @@
-<?php get_header(); ?>
 
-	<div id='body_wrapper'>
+<?php get_header(); ?>
+<body>
+	<div id='wrapper'>
+
 		<div id='post_wrapper'>
+
 		<?php if (have_posts()) : ?>
 	   	<?php while (have_posts()) : the_post(); ?>
 
@@ -13,11 +16,15 @@
 
 	   	<?php endwhile; ?>
 		<?php endif;?>
-		<span style='float:left;'><?php next_posts_link('&laquo; Previous entries');?></span>
-		<span style='float:right;'><?php previous_posts_link('Next entries &raquo;');?></span>
+
+			<span style='float:left;'><?php next_posts_link('&laquo; Previous entries');?></span>
+			<span style='float:right;'><?php previous_posts_link('Next entries &raquo;');?></span>
+		
 		</div>
 		<?php get_sidebar(); ?>
+
+		<div id="header_div"></div>
+
 	</div>
 
-
-<?php get_footer(); ?>
+	<?php get_footer(); ?>

@@ -11,9 +11,15 @@ Author URI: http://roshow.net
 /* = GLOBAL = */
 
 body {
-	background-color: #401606;
 	padding: 0px;
 	margin: 0px;
+	background-image:url('images/bkg.jpg');
+	background-repeat:repeat;
+	height: 100%;
+}
+
+html {
+	height: 100%;
 }
 
 a {
@@ -28,88 +34,95 @@ a:hover {
 
 /* = HEADER = */
 
-#header_div {
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
+#wrapper {
+	position: relative;
+	width: 960px;
+	min-width: 960px;
+	height: 100%;
+	margin: auto;
 }
 
-#header_img {
-	display: block;
-	padding: 0px;
-	margin: auto;
-	border: 0;
+#wrapper > div {
+	position: absolute;
 }
+
+#header_div {
+	width: 960px;
+	height: 100px;
+	display: block;
+	top: 0px;
+	left: 0px;
+	background-image: url('images/header.png');
+}
+
 
 /* =  MAIN BODY = */
 
-#body_wrapper {
-	width: 910px;
-	margin: auto;
-	margin-top: 135px;
+#post_wrapper {
+	background-color: #FAFCF3;
+	width: 600px;
+	padding: 10px 20px 20px;
+	border-radius: 3px;
+	display: inline-block;
+	height: auto;
+	overflow: scroll;
+	top: 70px;
+	left: 25px;
+	bottom: 0px;
 }
 
-	#post_wrapper {
-		background-color: #FDF4DB;
-		width: 600px;
-		padding: 20px;
-		margin: auto;
+	.post_item {
+		border: 1px solid #cccccc;
+		margin: 10px 0px;
 		border-radius: 3px;
-		float: left;
+		padding: 10px;
 	}
-
-		.post_item {
-			border: 1px solid #cccccc;
-			margin: 10px 0px;
-			border-radius: 3px;
-			padding: 10px;
+		.post_item  img {
+			max-width: 100%;
+			height: auto;
 		}
-			.post_item  img {
-				max-width: 100%;
-				height: auto;
-			}
-			.the_title {
-				font-size: 1.5em;
-				font-weight: 700;
-				font-family: Tahoma, Geneva, sans-serif;
-			}
-			.post_data {
-				font-size: .9em;
-			}
-			.the_content a {
-				color: red;
-			}
-			.the_content a:hover {
-				color: #bbbbbb;
-			}
-
-	#sidebar {
-		background-color: #EFEFED;
-		width: 200px;
-		height: auto;
-		padding: 30px;
-		margin: auto;
-		border-radius: 3px;
-		float: right;
-	}
-		.sidebar_content {
+		.the_title {
+			font-size: 1.5em;
+			font-weight: 700;
 			font-family: Tahoma, Geneva, sans-serif;
 		}
-
-		.sidebar_content a {
-			font-weight: 500;
+		.post_data {
+			font-size: .9em;
+		}
+		.the_content a {
+			color: red;
+		}
+		.the_content a:hover {
+			color: #bbbbbb;
 		}
 
-		.sidebar_content ul li {
-			display: block;
-			margin: 5px;
-		}
+#sidebar {
+	background-color: #FAFCF3;
+	width: 200px;
+	height: auto;
+	padding: 30px;
+	border-radius: 3px;
+	display: block;
+	top: 50px;
+	right: 25px;
+}
+	.sidebar_content {
+		font-family: Tahoma, Geneva, sans-serif;
+	}
 
-		.sidebar_content .hl {
-			font-size: 1em;
-			text-align: center;
-		}
+	.sidebar_content a {
+		font-weight: 500;
+	}
+
+	.sidebar_content ul li {
+		display: block;
+		margin: 5px;
+	}
+
+	.sidebar_content .hl {
+		font-size: 1em;
+		text-align: center;
+	}
 
 #footer {
 	width: 100%;
