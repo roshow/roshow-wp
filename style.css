@@ -13,7 +13,7 @@ Author URI: http://roshow.net
 body, html {
 	padding: 0px;
 	margin: 0px;
-	background-image:url('images/bkg.jpg');
+	background-image:url('images/bkg-4.jpg');
 	background-repeat:repeat;
 	height: 100%;
 }
@@ -57,14 +57,14 @@ a:hover {
 
 #post_wrapper {
 	background-color: #FAFCF3;
-	width: 600px;
+	width: 680px;
 	padding: 30px 20px 20px;
 	border-radius: 3px;
 	display: inline-block;
 	height: auto;
 	overflow: scroll;
 	top: 50px;
-	right: 45px;
+	right: 10px;
 	bottom: 0px;
 }
 
@@ -101,11 +101,11 @@ a:hover {
 	background-color: #FAFCF3;
 	width: 200px;
 	height: auto;
-	padding: 30px;
+	padding: 100px 10px 20px;
 	border-radius: 3px;
 	display: block;
-	top: 70px;
-	left: 5px;
+	top: 0px;
+	left: 0px;
 }
 	.sidebar_content {
 		font-family: Tahoma, Geneva, sans-serif;
