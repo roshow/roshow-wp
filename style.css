@@ -57,14 +57,14 @@ a:hover {
 
 #post_wrapper {
 	background-color: #FAFCF3;
-	width: 680px;
-	padding: 30px 20px 20px;
+	width: 690px;
+	padding: 80px 20px 20px;
 	border-radius: 3px;
 	display: inline-block;
 	height: auto;
 	overflow: scroll;
-	top: 50px;
-	right: 10px;
+	top: 0px;
+	right: 0px;
 	bottom: 0px;
 }
 
