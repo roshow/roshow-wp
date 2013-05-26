@@ -20,11 +20,10 @@
 						Tags: <?php the_tags(', '); ?><br />
 					<?php endif; ?>
 				</div>
-				<div>
-					<a href="<?php comments_link(); ?>"><?php comments_number('0 COMMENTS', '1 COMMENT', '% COMMENTS')?></a>
-				</div>
 			</div>
 
+			<a name="comments"></a>
+			<?php comments_template(); ?>
 	   	<?php endwhile; ?>
 		<?php endif;?>
 

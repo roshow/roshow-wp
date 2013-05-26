@@ -88,6 +88,7 @@ a:hover {
 		}
 		.post_data {
 			font-size: .9em;
+			font-style: italic;
 		}
 		.the_content a {
 			color: red;
