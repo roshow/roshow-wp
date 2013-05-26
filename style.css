@@ -30,6 +30,7 @@ a {
 
 a:hover {
 	color: #bbbbbb;
+	text-decoration: underline;
 }
 
 /* = HEADER = */
@@ -131,6 +132,12 @@ a:hover {
 	margin-top:10px;
 	display:block;
 	clear:both;
+}
+
+#comments {
+	font-family: Verdana, Arial, serif;
+	margin-top: 1.5%;
+	font-size: 1em;
 }
 
 

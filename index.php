@@ -17,10 +17,10 @@
 						Categories: <?php the_category(', '); ?><br />
 					<?php endif; ?>
 					<?php if (has_tag()) : ?>
-						Tags: <?php the_tags(', '); ?><br />
+						Tags: <?php the_tags(', '); ?>
 					<?php endif; ?>
 				</div>
-				<div>
+				<div id='comments'>
 					<a href="<?php comments_link(); ?>"><?php comments_number('0 COMMENTS', '1 COMMENT', '% COMMENTS')?></a>
 				</div>
 			</div>

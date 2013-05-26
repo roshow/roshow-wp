@@ -19,11 +19,11 @@
 					<?php if (has_tag()) : ?>
 						Tags: <?php the_tags(', '); ?><br />
 					<?php endif; ?>
-				</div>
+				</div id='comments'>
+				<a name="comments"></a>
+				<?php comments_template(); ?>
 			</div>
-
-			<a name="comments"></a>
-			<?php comments_template(); ?>
+			
 	   	<?php endwhile; ?>
 		<?php endif;?>
 
