@@ -10,15 +10,11 @@ Author URI: http://roshow.net
 
 /* = GLOBAL = */
 
-body {
+body, html {
 	padding: 0px;
 	margin: 0px;
 	background-image:url('images/bkg.jpg');
 	background-repeat:repeat;
-	height: 100%;
-}
-
-html {
 	height: 100%;
 }
 
@@ -62,13 +58,13 @@ a:hover {
 #post_wrapper {
 	background-color: #FAFCF3;
 	width: 600px;
-	padding: 10px 20px 20px;
+	padding: 30px 20px 20px;
 	border-radius: 3px;
 	display: inline-block;
 	height: auto;
 	overflow: scroll;
-	top: 70px;
-	left: 25px;
+	top: 50px;
+	right: 45px;
 	bottom: 0px;
 }
 
@@ -76,7 +72,7 @@ a:hover {
 		border: 1px solid #cccccc;
 		margin: 10px 0px;
 		border-radius: 3px;
-		padding: 10px;
+		padding: 15px 10px 25px;
 	}
 		.post_item  img {
 			max-width: 100%;
@@ -90,6 +86,9 @@ a:hover {
 		.post_data {
 			font-size: .9em;
 			font-style: italic;
+		}
+		.the_content {
+			line-height: 1.5em;
 		}
 		.the_content a {
 			color: red;
@@ -105,8 +104,8 @@ a:hover {
 	padding: 30px;
 	border-radius: 3px;
 	display: block;
-	top: 40px;
-	right: 25px;
+	top: 70px;
+	left: 5px;
 }
 	.sidebar_content {
 		font-family: Tahoma, Geneva, sans-serif;
@@ -134,10 +133,18 @@ a:hover {
 	clear:both;
 }
 
-#comments {
-	font-family: Verdana, Arial, serif;
+#comments_count {
+	font-family: Tahoma, Geneva, sans-serif;
 	margin-top: 1.5%;
 	font-size: 1em;
+}
+
+#com {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#comhead {
+	color: #610000;
 }
 
 

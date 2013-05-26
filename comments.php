@@ -20,7 +20,7 @@
 <!-- You can start editing here. -->
 <div id="com">
 <?php if ($comments) : ?>
-	<h3 id="comhead"><?php comments_number('No Comments', '1 Comment', '% Comments' );?></h3>
+	<h3 id="comhead"><?php comments_number('NO COMMENTS', '1 COMMENT', '% COMMENTS' );?></h3>
 
 	<div class="commentlist">
 
