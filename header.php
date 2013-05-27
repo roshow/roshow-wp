@@ -11,7 +11,7 @@
 
 $(function(){
 	$("#header_div").click(function(){
-		window.open('index.php');
+		window.location.href = 'index.php';
 	});
 });
 		</script>

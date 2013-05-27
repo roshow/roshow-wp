@@ -19,8 +19,9 @@
 						<?php if (has_tag()) : ?>
 							Tags: <?php the_tags(', '); ?><br />
 						<?php endif; ?>
-					</div id='comments'>
-					<a name="comments"></a>
+				<a name="comments"></a>
+				
+				</div id='comments'>
 					<?php comments_template(); ?>
 				</div>
 				

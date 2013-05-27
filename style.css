@@ -50,6 +50,7 @@ a:hover {
 	top: 0px;
 	left: 0px;
 	background-image: url('images/header.png');
+	cursor: pointer;
 }
 
 
@@ -166,4 +167,19 @@ img.alignleft {
 }
 .alignright {
 	float: right;
+}
+
+@media only screen and (max-device-width: 960px) {
+	#sidebar {
+		visibility: hidden;
+	}
+	#post_wrapper{
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.the_content {
+		font-size: 1.25em;
+	}
 }

@@ -2,6 +2,6 @@
 
 $(function(){
 	$("#head_div").click(function(){
-		window.open('index.php');
+		document.location.href = 'index.php';
 	});
 });
