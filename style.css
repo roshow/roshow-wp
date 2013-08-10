@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Fauna+One);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
 /* 
 Theme Name: roshow.net
 Theme URI: http://roshow.net
@@ -16,6 +19,7 @@ body, html {
 	background-image:url('images/bkg-4.jpg');
 	background-repeat:repeat;
 	height: 100%;
+	font-size:14px;
 }
 
 a {
@@ -81,9 +85,9 @@ a:hover {
 			height: auto;
 		}
 		.the_title {
-			font-size: 1.5em;
+			font-size: 1.75em;
 			font-weight: 700;
-			font-family: Tahoma, Geneva, sans-serif;
+			font-family: 'Fauna One', Geneva, sans-serif;
 		}
 		.post_data {
 			font-size: .9em;
@@ -91,6 +95,7 @@ a:hover {
 		}
 		.the_content {
 			line-height: 1.5em;
+			font-family: 'Droid Sans';
 		}
 		.the_content a {
 			color: red;
