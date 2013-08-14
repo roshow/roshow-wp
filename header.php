@@ -5,13 +5,13 @@
 		<meta name="Description" content="I'm Ro. This is my show.">
 		<meta name="bitly-verification" content="1c04e75ab0cc"/>
 		<meta name="keywords" content="rolando, garcia, rolando garcia, roshow, roshow.net, rolando garcia roshow, rolando roshow" />
-		<title>ROSHOW.net theme</title>
+		<title>ROSHOW.net</title>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
 		<script type="text/javascript">
 
 $(function(){
 	$("#header_div").click(function(){
-		window.location.href = 'index.php';
+		window.location.href = '/';
 	});
 });
 		</script>
